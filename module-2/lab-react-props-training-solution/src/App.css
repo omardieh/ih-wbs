@@ -1,0 +1,40 @@
+.counter-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.counter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #007bff;
+  padding: 20px;
+  width: 200px;
+  margin: 0 auto;
+}
+
+.btn {
+  width: 45px;
+  font-size: 1.8rem;
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  transition: background-color 0.3s, transform 0.1s; /* Added transform transition */
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+.btn:active {
+  transform: scale(0.95); /* Add a temporary scale effect on click */
+}
+
+.count {
+  width: 45px;
+  font-size: 2rem;
+  margin: 0 15px;
+}

@@ -1,0 +1,97 @@
+body {
+  background-color: #404EED;
+}
+#root {
+  min-height: 100vh;
+}
+
+/* Navbar */
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 48px;
+  align-items: center;
+}
+
+.discord-logo {
+  height: 32px;
+  width: auto;
+}
+
+.menu-icon {
+  height: 40px;
+  width: auto;
+}
+
+header {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-height: 800px;
+  padding: 0 48px;
+  margin-top: 3rem;
+  border-bottom: 1px solid #FFFFFF;
+  overflow: hidden;
+}
+
+header h1 {
+  color: white;
+  width: 40vw;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+  font-size: 4.2rem;
+  line-height: 100%;
+  text-transform: uppercase;
+}
+
+header p {
+  max-width: 50vw;
+  min-width: 300px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 1.4rem;
+  color: #FFFFFF;
+}
+
+.hero-buttons {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+
+.hero-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 300px;
+  max-width: fit-content;
+  padding: 20px 40px;
+  border: none;
+  outline: none;
+  margin-bottom: 2rem;
+  border-radius: 36px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.btn-white {
+  background-color: white;
+  color: #000000;
+}
+
+.btn-black {
+  background-color: #000000;
+  color: #FFFFFF;
+}
+
+.discord-background {
+  position: absolute;
+  z-index: -1;
+  bottom: 0;
+  right: -5vw;
+  height: 35vw;
+  max-height: 600px;
+}
+
